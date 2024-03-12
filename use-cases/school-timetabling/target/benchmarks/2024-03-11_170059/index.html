@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>2024-03-11_170059 Planner benchmark report</title>
+    <link href="twitterbootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="twitterbootstrap/css/bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="twitterbootstrap/css/prettify.css" rel="stylesheet"/>
+    <link href="website/css/benchmarkReport.css" rel="stylesheet"/>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body onload="prettyPrint()">
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span2">
+            <div class="benchmark-report-nav">
+                <div style="margin-top: 10px;">
+                    <a href="https://www.optaplanner.org">
+                        <img src="website/img/optaPlannerLogo.png" alt="OptaPlanner"/>
+                    </a>
+                </div>
+                <div style="margin-top: 10px; margin-bottom: 10px;">
+                    <ul class="nav nav-list">
+                        <li><a href="#summary">Summary</a></li>
+                        <li>
+                            <ul class="nav nav-list">
+                                <li><a href="#summary_result">Result</a></li>
+                                <li><a href="#summary_performance">Performance</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#problemBenchmarkResult">Problem benchmarks</a></li>
+                        <li>
+                            <ul class="nav nav-list">
+                                <li><a href="#problemBenchmark_Problem_0">Problem_0&nbsp;</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#solverBenchmarkResult">Solver benchmarks</a></li>
+                        <li>
+                            <ul class="nav nav-list">
+                                <li><a href="#solverBenchmark_Config_0">Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</a></li>
+                            </ul>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#benchmarkInformation">Benchmark information</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="span10">
+            <header class="main-page-header">
+                <h1>Benchmark report</h1>
+            </header>
+            <section id="summary">
+                <div class="page-header">
+                    <h1>Summary</h1>
+                </div>
+
+                <section id="summary_result">
+                    <h2>Result summary</h2>
+                    <div class="tabbable">
+                        <ul class="nav nav-pills">
+                            <li class="active">
+                                <a href="#summary_bestScore" data-toggle="tab">Best score</a>
+                            </li>
+                            <li>
+                                <a href="#summary_bestScoreScalability" data-toggle="tab">Best score scalability</a>
+                            </li>
+                            <li>
+                                <a href="#summary_bestScoreDistribution" data-toggle="tab">Best score distribution</a>
+                            </li>
+                            <li>
+                                <a href="#summary_winningScoreDifference" data-toggle="tab">Winning score difference</a>
+                            </li>
+                            <li>
+                                <a href="#summary_worstScoreDifferencePercentage" data-toggle="tab">Worst score difference percentage (ROI)</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="summary_bestScore">
+                                <h3>Best score summary</h3>
+                                <p>Useful for visualizing the best solver configuration.</p>
+    <div class="tabbable tabs-right">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#summary_bestScore_chart_0" data-toggle="tab">Hard Score</a>
+            </li>
+            <li class="active">
+                <a href="#summary_bestScore_chart_1" data-toggle="tab">Soft Score</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" id="summary_bestScore_chart_0">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScoreSummaryLevel0.png"/>
+                </div>
+            </div>
+            <div class="tab-pane active" id="summary_bestScore_chart_1">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScoreSummaryLevel1.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+                                <table class="benchmark-table table table-striped table-bordered">
+                                    <tr>
+                                        <th rowspan="2">Solver</th>
+                                        <th rowspan="2">Total</th>
+                                        <th rowspan="2">Average</th>
+                                        <th rowspan="2">Standard Deviation</th>
+                                        <th colspan="1">Problem</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Problem_0</th>
+                                    </tr>
+                                    <tr class="favoriteSolverBenchmark">
+                                        <th>Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</th>
+                                        <td>0hard/-11soft</td>
+                                        <td>0hard/-11soft</td>
+                                        <td>0.0E0/0.0E0</td>
+                                                        <td>0hard/-11soft&nbsp;        <span class="badge badge-success">0</span>
+
+</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="tab-pane" id="summary_bestScoreScalability">
+                                <h3>Best score scalability summary</h3>
+                                <p>Useful for visualizing the scalability of each solver configuration.</p>
+    <div class="tabbable tabs-right">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#summary_bestScoreScalability_chart_0" data-toggle="tab">Hard Score</a>
+            </li>
+            <li class="active">
+                <a href="#summary_bestScoreScalability_chart_1" data-toggle="tab">Soft Score</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" id="summary_bestScoreScalability_chart_0">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScoreScalabilitySummaryLevel0.png"/>
+                </div>
+            </div>
+            <div class="tab-pane active" id="summary_bestScoreScalability_chart_1">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScoreScalabilitySummaryLevel1.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+                            </div>
+                            <div class="tab-pane" id="summary_bestScoreDistribution">
+                                <h3>Best score distribution summary</h3>
+                                <p>Useful for visualizing the reliability of each solver configuration.</p>
+                                <p>Maximum subSingle count: 1<br/></p>
+                                    <div class="alert alert-error">
+                                        <p>The benchmarker did not run multiple subSingles, so there is no distribution and therefore no reliability indication.</p>
+                                    </div>
+    <div class="tabbable tabs-right">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#summary_bestScoreDistribution_chart_0" data-toggle="tab">Hard Score</a>
+            </li>
+            <li class="active">
+                <a href="#summary_bestScoreDistribution_chart_1" data-toggle="tab">Soft Score</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" id="summary_bestScoreDistribution_chart_0">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScoreDistributionSummaryLevel0.png"/>
+                </div>
+            </div>
+            <div class="tab-pane active" id="summary_bestScoreDistribution_chart_1">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScoreDistributionSummaryLevel1.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+                            </div>
+                            <div class="tab-pane" id="summary_winningScoreDifference">
+                                <h3>Winning score difference summary</h3>
+                                <p>Useful for zooming in on the results of the best score summary.</p>
+    <div class="tabbable tabs-right">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#summary_winningScoreDifference_chart_0" data-toggle="tab">Hard Score</a>
+            </li>
+            <li class="active">
+                <a href="#summary_winningScoreDifference_chart_1" data-toggle="tab">Soft Score</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" id="summary_winningScoreDifference_chart_0">
+                <div class="benchmark-chart">
+                    <img src="summary/winningScoreDifferenceSummaryLevel0.png"/>
+                </div>
+            </div>
+            <div class="tab-pane active" id="summary_winningScoreDifference_chart_1">
+                <div class="benchmark-chart">
+                    <img src="summary/winningScoreDifferenceSummaryLevel1.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+                                <table class="benchmark-table table table-striped table-bordered">
+                                    <tr>
+                                        <th rowspan="2">Solver</th>
+                                        <th rowspan="2">Total</th>
+                                        <th rowspan="2">Average</th>
+                                        <th colspan="1">Problem</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Problem_0</th>
+                                    </tr>
+                                    <tr class="favoriteSolverBenchmark">
+                                        <th>Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</th>
+                                        <td>0hard/0soft</td>
+                                        <td>0hard/0soft</td>
+                                                    <td>0hard/0soft&nbsp;        <span class="badge badge-success">0</span>
+
+</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="tab-pane" id="summary_worstScoreDifferencePercentage">
+                                <h3>Worst score difference percentage summary (ROI)</h3>
+                                <p>Useful for visualizing the return on investment (ROI) to decision makers.</p>
+    <div class="tabbable tabs-right">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#summary_worstScoreDifferencePercentage_chart_0" data-toggle="tab">Hard Score</a>
+            </li>
+            <li class="active">
+                <a href="#summary_worstScoreDifferencePercentage_chart_1" data-toggle="tab">Soft Score</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" id="summary_worstScoreDifferencePercentage_chart_0">
+                <div class="benchmark-chart">
+                    <img src="summary/worstScoreDifferencePercentageSummaryLevel0.png"/>
+                </div>
+            </div>
+            <div class="tab-pane active" id="summary_worstScoreDifferencePercentage_chart_1">
+                <div class="benchmark-chart">
+                    <img src="summary/worstScoreDifferencePercentageSummaryLevel1.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+                                <table class="benchmark-table table table-striped table-bordered">
+                                    <tr>
+                                        <th rowspan="2">Solver</th>
+                                        <th rowspan="2">Average</th>
+                                        <th colspan="1">Problem</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Problem_0</th>
+                                    </tr>
+                                    <tr class="favoriteSolverBenchmark">
+                                        <th>Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</th>
+                                            <td>0.00%/0.00%</td>
+                                                    <td>0.00%/0.00%&nbsp;        <span class="badge badge-success">0</span>
+
+</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="summary_performance">
+                    <h2>Performance summary</h2>
+                    <div class="tabbable">
+                        <ul class="nav nav-pills">
+                            <li class="active">
+                                <a href="#summary_scoreCalculationSpeed" data-toggle="tab">Score calculation speed</a>
+                            </li>
+                            <li>
+                                <a href="#summary_worstScoreCalculationSpeedDifferencePercentage" data-toggle="tab">Worst score calculation speed difference percentage</a>
+                            </li>
+                            <li>
+                                <a href="#summary_timeSpent" data-toggle="tab">Time spent</a>
+                            </li>
+                            <li>
+                                <a href="#summary_timeSpentScalability" data-toggle="tab">Time spent scalability</a>
+                            </li>
+                            <li>
+                                <a href="#summary_bestScorePerTimeSpent" data-toggle="tab">Best score per time spent</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="summary_scoreCalculationSpeed">
+                                <h3>Score calculation speed summary</h3>
+                                <p>
+                                    Useful for comparing different score calculators and/or constraint implementations
+                                    (presuming that the solver configurations do not differ otherwise).
+                                    Also useful to measure the scalability cost of an extra constraint.
+                                </p>
+                                <div class="benchmark-chart">
+                                    <img src="summary/scoreCalculationSpeedSummary.png"/>
+                                </div>
+                                <table class="benchmark-table table table-striped table-bordered">
+                                    <tr>
+                                        <th rowspan="2">Solver</th>
+                                        <th rowspan="2">Average</th>
+                                        <th colspan="1">Problem</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Problem_0</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="problemScale">Problem scale</th>
+                                        <td class="problemScale">600</td>
+                                        <td class="problemScale">600</td>
+                                    </tr>
+                                    <tr class="favoriteSolverBenchmark">
+                                        <th>Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</th>
+                                        <td>500/s</td>
+                                                        <td>500/s</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="tab-pane" id="summary_worstScoreCalculationSpeedDifferencePercentage">
+                                <h3>Worst score calculation speed difference percentage</h3>
+                                <p>
+                                    Useful for comparing different score calculators and/or constraint implementations
+                                    (presuming that the solver configurations do not differ otherwise).
+                                    Also useful to measure the scalability cost of an extra constraint.
+                                </p>
+                                <div class="benchmark-chart">
+                                    <img src="summary/worstScoreCalculationSpeedDifferencePercentageSummary.png"/>
+                                </div>
+                                <table class="benchmark-table table table-striped table-bordered">
+                                    <tr>
+                                        <th rowspan="2">Solver</th>
+                                        <th rowspan="2">Average</th>
+                                        <th colspan="1">Problem</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Problem_0</th>
+                                    </tr>
+                                    <tr class="favoriteSolverBenchmark">
+                                        <th>Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</th>
+                                            <td>0.00%</td>
+                                                    <td>0.00%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="tab-pane" id="summary_timeSpent">
+                                <h3>Time spent summary</h3>
+                                <p>Useful for visualizing the performance of construction heuristics (presuming that no other solver phases are configured).</p>
+                                <div class="benchmark-chart">
+                                    <img src="summary/timeSpentSummary.png"/>
+                                </div>
+                                <table class="benchmark-table table table-striped table-bordered">
+                                    <tr>
+                                        <th rowspan="2">Solver</th>
+                                        <th rowspan="2">Average</th>
+                                        <th colspan="1">Problem</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Problem_0</th>
+                                    </tr>
+                                    <tr>
+                                        <th class="problemScale">Problem scale</th>
+                                        <td class="problemScale">600</td>
+                                        <td class="problemScale">600</td>
+                                    </tr>
+                                    <tr class="favoriteSolverBenchmark">
+                                        <th>Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</th>
+                                        <td>2</td>
+                                                        <td>0.002 s. (2 ms.)</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="tab-pane" id="summary_timeSpentScalability">
+                                <h3>Time spent scalability summary</h3>
+                                <p>Useful for extrapolating the scalability of construction heuristics (presuming that no other solver phases are configured).</p>
+                                <div class="benchmark-chart">
+                                    <img src="summary/timeSpentScalabilitySummary.png"/>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="summary_bestScorePerTimeSpent">
+                                <h3>Best score per time spent summary</h3>
+                                <p>Useful for visualizing trade-off between the best score versus the time spent for construction heuristics (presuming that no other solver phases are configured).</p>
+    <div class="tabbable tabs-right">
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#summary_bestScorePerTimeSpent_chart_0" data-toggle="tab">Hard Score</a>
+            </li>
+            <li class="active">
+                <a href="#summary_bestScorePerTimeSpent_chart_1" data-toggle="tab">Soft Score</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane" id="summary_bestScorePerTimeSpent_chart_0">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScorePerTimeSpentSummaryLevel0.png"/>
+                </div>
+            </div>
+            <div class="tab-pane active" id="summary_bestScorePerTimeSpent_chart_1">
+                <div class="benchmark-chart">
+                    <img src="summary/bestScorePerTimeSpentSummaryLevel1.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section id="problemBenchmarkResult">
+                <div class="page-header">
+                    <h1>Problem benchmarks</h1>
+                </div>
+                <section id="problemBenchmark_Problem_0">
+                    <h2>Problem_0</h2>
+                    <p>
+                        Entity count: 20<br/>
+                        Variable count: 40<br/>
+                        Maximum value count: 10<br/>
+                        Problem scale: 600
+                            <br/>Time spent to load the inputSolution:&nbsp;
+                                &lt; 1 ms
+                            <br/>Memory usage after loading the inputSolution (before creating the Solver): 131,121,816 bytes on average.
+                    </p>
+                        <div class="tabbable">
+                            <ul class="nav nav-tabs">
+                                    <li class="active">
+                                        <a href="#problemStatistic_Problem_0_BEST_SCORE" data-toggle="tab">Best Score</a>
+                                    </li>
+                            </ul>
+                            <div class="tab-content">
+                                    <div class="tab-pane active" id="problemStatistic_Problem_0_BEST_SCORE">
+                                                <div class="tabbable tabs-right">
+                                                    <ul class="nav nav-tabs">
+                                                            <li>
+                                                                <a href="#problemStatistic_Problem_0_BEST_SCORE_0" data-toggle="tab">Hard Score</a>
+                                                            </li>
+                                                            <li class="active">
+                                                                <a href="#problemStatistic_Problem_0_BEST_SCORE_1" data-toggle="tab">Soft Score</a>
+                                                            </li>
+                                                    </ul>
+                                                    <div class="tab-content">
+                                                            <div class="tab-pane" id="problemStatistic_Problem_0_BEST_SCORE_0">
+                                                                <div class="benchmark-chart">
+                                                                    <img src="Problem_0/Problem_0BestScoreStatisticLevel0.png"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tab-pane active" id="problemStatistic_Problem_0_BEST_SCORE_1">
+                                                                <div class="benchmark-chart">
+                                                                    <img src="Problem_0/Problem_0BestScoreStatisticLevel1.png"/>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            <span>CSV files per solver:</span>
+                                            <div class="btn-group download-btn-group">
+                                                <button class="btn" onclick="window.location.href='Problem_0/Config_0/sub0/BEST_SCORE.csv'"><i class="icon-download"></i></button>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <section id="singleBenchmark_Problem_0_Config_0">
+                            <h3>Problem_0_Config_0</h3>
+                                    <p>Score summary not provided.</p>
+                        </section>
+                </section>
+            </section>
+
+            <section id="solverBenchmarkResult">
+                <div class="page-header">
+                    <h1>Solver benchmarks</h1>
+                </div>
+                <section id="solverBenchmark_Config_0">
+                    <h2>Config_0&nbsp;        <span class="badge badge-success">0</span>
+
+</h2>
+                    <button class="btn showSolverConfiguration" data-toggle="collapse" data-target="#solverBenchmark_Config_0_config">
+                        Show/hide Solver configuration
+                    </button>
+                    <div id="solverBenchmark_Config_0_config" class="collapse in">
+                        <pre class="prettyprint lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+&lt;solver xmlns=&quot;https://www.optaplanner.org/xsd/solver&quot;&gt;
+  &lt;monitoring&gt;
+    &lt;metric&gt;BEST_SCORE&lt;/metric&gt;
+  &lt;/monitoring&gt;
+  &lt;solutionClass&gt;org.acme.schooltimetabling.domain.TimeTable&lt;/solutionClass&gt;
+  &lt;entityClass&gt;org.acme.schooltimetabling.domain.Lesson&lt;/entityClass&gt;
+  &lt;domainAccessType&gt;GIZMO&lt;/domainAccessType&gt;
+  &lt;scoreDirectorFactory&gt;
+    &lt;constraintProviderClass&gt;org.acme.schooltimetabling.solver.TimeTableConstraintProvider&lt;/constraintProviderClass&gt;
+  &lt;/scoreDirectorFactory&gt;
+  &lt;termination&gt;
+    &lt;spentLimit&gt;PT1H&lt;/spentLimit&gt;
+    &lt;bestScoreLimit&gt;0hard/*soft&lt;/bestScoreLimit&gt;
+  &lt;/termination&gt;
+&lt;/solver&gt;
+</pre>
+                    </div>
+                </section>
+            </section>
+
+            <section id="benchmarkInformation">
+                <div class="page-header">
+                    <h1>Benchmark information</h1>
+                </div>
+                <table class="benchmark-table table table-striped">
+                    <tr>
+                        <th>Name</th>
+                        <td>2024-03-11_170059</td>
+                    </tr>
+                    <tr>
+                        <th>Aggregation</th>
+                        <td>false</td>
+                    </tr>
+                    <tr>
+                        <th>Failure count</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>Starting timestamp</th>
+                        <td>Mar 11, 2024, 5:00:59 PM</td>
+                    </tr>
+                    <tr>
+                        <th>Warm up time spent</th>
+                            <td>0.030 s. (30 ms.)</td>
+                    </tr>
+                    <tr>
+                        <th>Parallel benchmark count / available processors</th>
+                            <td>1 / 14</td>
+                    </tr>
+                    <tr>
+                        <th>Benchmark time spent</th>
+                            <td>0.277 s. (277 ms.)</td>[
+                    </tr>
+                    <tr>
+                        <th>Environment mode</th>
+                        <td>REPRODUCIBLE</td>
+                    </tr>
+                    <tr>
+                        <th>Logging level org.optaplanner.core</th>
+                        <td>INFO</td>
+                    </tr>
+                    <tr>
+                        <th>Logging level org.drools.core</th>
+                        <td>INFO</td>
+                    </tr>
+                    <tr>
+                        <th>Solver ranking class</th>
+                        <td>
+                            <span data-toggle="tooltip" title="org.optaplanner.benchmark.impl.ranking.TotalScoreSolverRankingComparator">
+                                TotalScoreSolverRankingComparator
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>VM max memory (as in -Xmx but lower)</th>
+                            <td>9,663,676,416 bytes</td>
+                    </tr>
+                    <tr>
+                        <th>OptaPlanner version</th>
+                        <td>8.45.0-SNAPSHOT</td>
+                    </tr>
+                    <tr>
+                        <th>Java version</th>
+                        <td>Java 17.0.2 (Oracle Corporation)</td>
+                    </tr>
+                    <tr>
+                        <th>Java VM</th>
+                        <td>Java OpenJDK 64-Bit Server VM 17.0.2+8-86 (Oracle Corporation)</td>
+                    </tr>
+                    <tr>
+                        <th>Operating system</th>
+                        <td>Mac OS X aarch64 14.3.1</td>
+                    </tr>
+                    <tr>
+                        <th>Report locale</th>
+                        <td>Unknown</td>
+                    </tr>
+                    <tr>
+                        <th>Report timezone</th>
+                        <td>America/Phoenix</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </div>
+</div>
+
+<script src="twitterbootstrap/js/jquery.js"></script>
+<script src="twitterbootstrap/js/bootstrap.js"></script>
+<script src="twitterbootstrap/js/prettify.js"></script>
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+org/acme/vehiclerouting/domain/geo/EuclideanDistanceCalculator.class
+org/acme/vehiclerouting/domain/Depot.class
+org/acme/vehiclerouting/bootstrap/DemoDataBuilder.class
+org/acme/vehiclerouting/domain/Vehicle.class
+org/acme/vehiclerouting/rest/SolverResource.class
+org/acme/vehiclerouting/domain/solver/DepotAngleCustomerDifficultyWeightFactory.class
+org/acme/vehiclerouting/domain/VehicleRoutingSolution.class
+org/acme/vehiclerouting/domain/solver/DepotAngleCustomerDifficultyWeightFactory$DepotAngleCustomerDifficultyWeight.class
+org/acme/vehiclerouting/rest/Status.class
+org/acme/vehiclerouting/domain/Location.class
+org/acme/vehiclerouting/bootstrap/DemoDataGenerator.class
+org/acme/vehiclerouting/solver/VehicleRoutingConstraintProvider.class
+org/acme/vehiclerouting/domain/Customer.class
+org/acme/vehiclerouting/persistence/VehicleRoutingSolutionRepository.class
+org/acme/vehiclerouting/domain/geo/DistanceCalculator.class

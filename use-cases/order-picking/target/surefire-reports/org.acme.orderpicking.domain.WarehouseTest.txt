@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.acme.orderpicking.domain.WarehouseTest
+-------------------------------------------------------------------------------
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 s - in org.acme.orderpicking.domain.WarehouseTest

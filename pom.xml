@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.optaplanner</groupId>
+    <artifactId>optaplanner-build-parent</artifactId>
+    <version>8.45.0-SNAPSHOT</version>
+    <relativePath/>
+  </parent>
+  <!-- IMPORTANT: the individual quickstarts have no parent pom. -->
+
+  <artifactId>optaplanner-quickstarts-parent</artifactId>
+  <packaging>pom</packaging>
+  <name>OptaPlanner Quickstarts</name>
+
+  <properties>
+    <!-- Define the Quarkus version here for use in module POMs -->
+    <quarkus.version>2.7.2.Final</quarkus.version> <!-- Update to your desired Quarkus version -->
+  </properties>
+
+  <modules>
+    <module>hello-world</module>
+    <module>technology/java-spring-boot</module>
+    <module>technology/java-activemq-quarkus</module>
+    <module>technology/kotlin-quarkus</module>
+    <module>use-cases/school-timetabling</module>
+    <module>use-cases/facility-location</module>
+    <module>use-cases/maintenance-scheduling</module>
+    <module>use-cases/call-center</module>
+    <module>use-cases/vaccination-scheduling</module>
+    <module>use-cases/vehicle-routing</module>
+    <module>use-cases/order-picking</module>
+    <module>use-cases/employee-scheduling</module>
+    <module>build/quickstarts-showcase</module>
+  </modules>
+
+  <profiles>
+    <profile>
+      <id>default</id>
+      <activation>
+        <property>
+          <name>!productized</name>
+        </property>
+      </activation>
+      <modules>
+        <module>technology/kubernetes</module>
+      </modules>
+    </profile>
+
+    <profile>
+      <id>fullProfile</id>
+      <activation>
+        <property>
+          <name>full</name>
+        </property>
+      </activation>
+      <modules>
+        <module>build/optaplanner-distribution</module>
+      </modules>
+    </profile>
+  </profiles>
+
+  <repositories>
+    <!-- To get snapshots during development. Remove this in the "stable" branch (which doesn't use snapshots). -->
+    <repository>
+      <id>jboss-public-repository-group</id>
+      <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+      <releases>
+        <!-- Get releases only from Maven Central which is faster. -->
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+</project>

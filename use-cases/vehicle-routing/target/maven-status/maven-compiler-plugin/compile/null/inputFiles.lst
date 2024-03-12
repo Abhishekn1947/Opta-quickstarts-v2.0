@@ -1,0 +1,14 @@
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/rest/SolverResource.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/geo/EuclideanDistanceCalculator.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/Location.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/VehicleRoutingSolution.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/Depot.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/persistence/VehicleRoutingSolutionRepository.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/Customer.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/solver/DepotAngleCustomerDifficultyWeightFactory.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/solver/VehicleRoutingConstraintProvider.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/bootstrap/DemoDataBuilder.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/geo/DistanceCalculator.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/bootstrap/DemoDataGenerator.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/domain/Vehicle.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/main/java/org/acme/vehiclerouting/rest/Status.java

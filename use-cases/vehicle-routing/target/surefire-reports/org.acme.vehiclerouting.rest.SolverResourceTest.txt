@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.acme.vehiclerouting.rest.SolverResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.862 s - in org.acme.vehiclerouting.rest.SolverResourceTest

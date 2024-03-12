@@ -1,0 +1,11 @@
+org/acme/schooltimetabling/rest/RoomResourceTest.class
+org/acme/schooltimetabling/solver/TimeTableConstraintProviderTest.class
+org/acme/schooltimetabling/rest/TimeslotResourceIT.class
+org/acme/schooltimetabling/rest/LessonResourceTest.class
+org/acme/schooltimetabling/rest/LessonResourceIT.class
+org/acme/schooltimetabling/TestResources.class
+org/acme/schooltimetabling/rest/RoomResourceIT.class
+META-INF/panache-archive.marker
+org/acme/schooltimetabling/solver/TimeTableBenchmarkTest.class
+org/acme/schooltimetabling/rest/TimeTableResourceTest.class
+org/acme/schooltimetabling/rest/TimeslotResourceTest.class

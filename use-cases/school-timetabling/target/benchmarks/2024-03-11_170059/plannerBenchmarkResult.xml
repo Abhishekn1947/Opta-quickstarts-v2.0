@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><plannerBenchmarkResult>
+  <name>2024-03-11_170059</name>
+  <aggregation>false</aggregation>
+  <availableProcessors>14</availableProcessors>
+  <loggingLevelOptaPlannerCore>INFO</loggingLevelOptaPlannerCore>
+  <loggingLevelDroolsCore>INFO</loggingLevelDroolsCore>
+  <maxMemory>9663676416</maxMemory>
+  <optaPlannerVersion>8.45.0-SNAPSHOT</optaPlannerVersion>
+  <javaVersion>Java 17.0.2 (Oracle Corporation)</javaVersion>
+  <javaVM>Java OpenJDK 64-Bit Server VM 17.0.2+8-86 (Oracle Corporation)</javaVM>
+  <operatingSystem>Mac OS X aarch64 14.3.1</operatingSystem>
+  <parallelBenchmarkCount>1</parallelBenchmarkCount>
+  <warmUpTimeMillisSpentLimit>30</warmUpTimeMillisSpentLimit>
+  <solverBenchmarkResult>
+    <name>Config_0</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>org.acme.schooltimetabling.domain.TimeTable</solutionClass>
+      <entityClass>org.acme.schooltimetabling.domain.Lesson</entityClass>
+      <domainAccessType>GIZMO</domainAccessType>
+      <scoreDirectorFactory>
+        <constraintProviderClass>org.acme.schooltimetabling.solver.TimeTableConstraintProvider</constraintProviderClass>
+      </scoreDirectorFactory>
+      <termination>
+        <spentLimit>PT1H</spentLimit>
+        <bestScoreLimit>0hard/*soft</bestScoreLimit>
+      </termination>
+    </solverConfig>
+    <singleBenchmarkResult id="1">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>131121816</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-11soft</score>
+        <timeMillisSpent>2</timeMillisSpent>
+        <scoreCalculationCount>1</scoreCalculationCount>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>Problem_0</name>
+    <instanceProblemProvider/>
+    <writeOutputSolutionEnabled>false</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>1</singleBenchmarkResult>
+    <entityCount>20</entityCount>
+    <variableCount>40</variableCount>
+    <maximumValueCount>10</maximumValueCount>
+    <problemScale>600</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>0</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <startingTimestamp>2024-03-11T17:00:59.693085-07:00</startingTimestamp>
+  <benchmarkTimeMillisSpent>277</benchmarkTimeMillisSpent>
+</plannerBenchmarkResult>

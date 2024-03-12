@@ -1,0 +1,15 @@
+org/acme/schooltimetabling/rest/TimeTableResource.class
+org/acme/schooltimetabling/domain/TimeTable.class
+org/acme/schooltimetabling/persistence/LessonRepository.class
+org/acme/schooltimetabling/domain/Room.class
+org/acme/schooltimetabling/bootstrap/DemoDataGenerator.class
+org/acme/schooltimetabling/persistence/RoomRepository.class
+org/acme/schooltimetabling/domain/Timeslot.class
+org/acme/schooltimetabling/solver/TimeTableConstraintProvider.class
+org/acme/schooltimetabling/domain/Lesson.class
+org/acme/schooltimetabling/rest/RoomResource.class
+org/acme/schooltimetabling/rest/LessonResource.class
+META-INF/panache-archive.marker
+org/acme/schooltimetabling/bootstrap/DemoDataGenerator$DemoData.class
+org/acme/schooltimetabling/persistence/TimeslotRepository.class
+org/acme/schooltimetabling/rest/TimeslotResource.class

@@ -1,0 +1,5 @@
+org/acme/vehiclerouting/bootstrap/DemoDataBuilderTest.class
+org/acme/vehiclerouting/solver/SolverManagerTest.class
+org/acme/vehiclerouting/solver/VehicleRoutingConstraintProviderTest.class
+org/acme/vehiclerouting/domain/geo/EuclideanDistanceCalculatorTest.class
+org/acme/vehiclerouting/rest/SolverResourceTest.class

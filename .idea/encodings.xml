@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/build/quickstarts-showcase/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/build/quickstarts-showcase/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-world/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-world/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/solver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/solver/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-activemq-quarkus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-spring-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/java-spring-boot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kotlin-quarkus/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kotlin-quarkus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/demo-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/demo-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/school-timetabling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/school-timetabling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/technology/kubernetes/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/call-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/call-center/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/employee-scheduling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/employee-scheduling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/facility-location/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/facility-location/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/maintenance-scheduling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/maintenance-scheduling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/order-picking/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/order-picking/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/school-timetabling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/school-timetabling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/vaccination-scheduling/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/vaccination-scheduling/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/vehicle-routing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/use-cases/vehicle-routing/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

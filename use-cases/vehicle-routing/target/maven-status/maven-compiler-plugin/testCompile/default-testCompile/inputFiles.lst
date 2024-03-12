@@ -1,0 +1,5 @@
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/test/java/org/acme/vehiclerouting/solver/VehicleRoutingConstraintProviderTest.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/test/java/org/acme/vehiclerouting/domain/geo/EuclideanDistanceCalculatorTest.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/test/java/org/acme/vehiclerouting/bootstrap/DemoDataBuilderTest.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/test/java/org/acme/vehiclerouting/rest/SolverResourceTest.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/vehicle-routing/src/test/java/org/acme/vehiclerouting/solver/SolverManagerTest.java

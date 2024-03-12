@@ -1,0 +1,13 @@
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/domain/Lesson.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/persistence/LessonRepository.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/solver/TimeTableConstraintProvider.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/rest/RoomResource.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/domain/TimeTable.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/domain/Room.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/rest/LessonResource.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/persistence/RoomRepository.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/persistence/TimeslotRepository.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/rest/TimeTableResource.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/domain/Timeslot.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/rest/TimeslotResource.java
+/Users/abhis_m3/Downloads/Opta-quickstarts-v2.0/use-cases/school-timetabling/src/main/java/org/acme/schooltimetabling/bootstrap/DemoDataGenerator.java

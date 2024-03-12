@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for OptaPlanner Quickstarts" enabled="true">
+        <sourceOutputDir name="../generated-sources/annotations" />
+        <sourceTestOutputDir name="../generated-test-sources/test-annotations" />
+        <module name="optaplanner-quickstarts-showcase.main" />
+        <module name="optaplanner-quickstarts-showcase.test" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kubernetes-demo-school-timetabling" />
+        <module name="optaplanner-activemq-quarkus-school-timetabling-solver" />
+        <module name="optaplanner-quarkus-employee-scheduling-quickstart" />
+        <module name="optaplanner-hello-world-school-timetabling-quickstart" />
+        <module name="optaplanner-quarkus-maintenance-scheduling-quickstart" />
+        <module name="optaplanner-quarkus-school-timetabling-quickstart" />
+        <module name="kubernetes-demo-common" />
+        <module name="optaplanner-quarkus-call-center-quickstart" />
+        <module name="optaplanner-spring-boot-school-timetabling-quickstart" />
+        <module name="optaplanner-kotlin-quarkus-school-timetabling-quickstart" />
+        <module name="optaplanner-activemq-quarkus-school-timetabling-client" />
+        <module name="optaplanner-quarkus-vaccination-scheduling-quickstart" />
+        <module name="optaplanner-quarkus-order-picking-quickstart" />
+        <module name="optaplanner-quarkus-vehicle-routing-quickstart" />
+        <module name="kubernetes-demo-app" />
+        <module name="optaplanner-activemq-quarkus-school-timetabling-common" />
+        <module name="optaplanner-quarkus-facility-location-quickstart" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kubernetes-demo-app" options="-parameters" />
+      <module name="kubernetes-demo-common" options="-parameters" />
+      <module name="kubernetes-demo-school-timetabling" options="-parameters" />
+      <module name="optaplanner-quickstarts-showcase" options="-Xmaxwarns 100 -Xlint -Xlint:-rawtypes -Xlint:-serial -Xlint:-unchecked" />
+      <module name="optaplanner-quickstarts-showcase.main" options="-Xmaxwarns 100 -Xlint -Xlint:-rawtypes -Xlint:-serial -Xlint:-unchecked" />
+      <module name="optaplanner-quickstarts-showcase.test" options="-Xmaxwarns 100 -Xlint -Xlint:-rawtypes -Xlint:-serial -Xlint:-unchecked" />
+    </option>
+  </component>
+</project>
